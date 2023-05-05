@@ -16,3 +16,23 @@ footer ul{
 footer ul a{
   color: aliceblue;
 }
+
+section{
+  margin-top: 100px;
+  background-color: blue;
+
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  background-color: crimson;
+  justify-content: center;
+}
+
+button:active{
+  transform: scale("1.05");
+  opacity: 0.3;
+}
